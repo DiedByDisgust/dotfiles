@@ -23,7 +23,7 @@ for_window [app_id="termfloat"] resize set height 500
 for_window [app_id="termfloat"] resize set width 900
 
 # background
-set $background $HOME/.bg/malecon.jpg
+#set $background $HOME/.bg/malecon.jpg
 # Your preferred terminal emulator
 set $term kitty
 set $term_float kitty --class="termfloat" 
@@ -65,7 +65,7 @@ set $help "$term_float man $HOME/.config/sway/help.man"
 # onscreen bar
 set $onscreen_bar bash /usr/share/sway/scripts/wob.sh "$accent-colorFF" "$background-colorFF" 
 # calendar application
-set $calendar $term_float "khal interactive"
+#set $calendar $term_float "khal interactive"
 
 # workspace names
 set $ws1 number 1
@@ -85,3 +85,6 @@ set $screenshot_screen_clipboard $grimshot --notify copy output
 set $screenshot_screen_file $grimshot --notify save output
 set $screenshot_selection_clipboard $grimshot --notify copy window
 set $screenshot_selection_file $grimshot --notify save window
+
+# transparency
+#exec /usr/share/sway/scripts/inactive-windows-transparency.py --opacity 0.85

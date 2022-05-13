@@ -1,0 +1,6 @@
+default_border pixel 2
+default_floating_border pixel 2
+
+client.focused #ff0000 #ffa500 #000000
+
+set $background $HOME/.bg/lake_qadisiyah_iraq_earth_view_from_space-wallpaper-1920x1200.jpg 

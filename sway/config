@@ -6,9 +6,10 @@
 
 # styles - set the folder for your theme defination file
 #set $theme /usr/share/sway/themes/matcha-green
+set $theme $HOME/.config/sway/theme
 
 #theme variables
-#include $theme/definitions
+include $theme/definitions
 
 # global variables
 include $HOME/.config/sway/definitions
